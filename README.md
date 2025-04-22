@@ -1,35 +1,73 @@
-# 📄 docsum.py - Document Summarizer
+# 📄 `docsum.py` - Document Summarizer
 
-`docsum.py` is a simple Python script that summarizes documents, web pages, and PDFs into summarys using the Groq llm.
+**`docsum.py`** is a simple Python script that summarizes documents, web pages, PDFs, and images using the Groq LLM.
 
 It can handle:
-- Local HTML or text files  
-- PDFs  
-- URLs to online news articles or webpages  
-- images
+- Local `.txt` or `.html` files  
+- `.pdf` documents  
+- URLs to online news articles or web pages  
+- Images (via URL)
 
-## Usage
+---
 
-To run the script, use the command lines below in the terminal:
+## 📦 Usage
 
-## Txt or html files
-python3 docsum.py <name of local txt file or html file>
-ex: python3 docsum.py <constitution-mx.txt>
-ex2: python3 docsum.py news-mx.html
+Run the script using the terminal with the following syntax:
 
-## PDF's
+---
+
+### 📄 Text or HTML Files
+
+```bash
+python3 docsum.py <name of local txt or html file>
+```
+
+**Examples:**
+```bash
+python3 docsum.py constitution-mx.txt
+```
+
+```bash
+python3 docsum.py news-mx.html
+```
+
+---
+
+### 📚 PDF Files
+
+```bash
 python3 docsum.py <pdf file name>
-ex: python3 docsum.py research_paper.pdf
+```
 
-## URL's
-python3 docsum.py <URL link>
-ex: python3 docsum.py https://elpais.com/us/
+**Example:**
+```bash
+python3 docsum.py research_paper.pdf
+```
 
-## image files
-python3 docsum.py <image link>
-ex: python3 docsum.py https://www.cmc.edu/sites/default/files/about/images/20170213-cube.jpg
+---
 
+### 🌐 URLs
 
+```bash
+python3 docsum.py <URL>
+```
 
+**Example:**
+```bash
+python3 docsum.py https://elpais.com/us/
+```
 
+---
 
+### 🖼️ Image Files
+
+```bash
+python3 docsum.py <image URL>
+```
+
+**Example:**
+```bash
+python3 docsum.py https://www.cmc.edu/sites/default/files/about/images/20170213-cube.jpg
+```
+
+---
