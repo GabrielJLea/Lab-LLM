@@ -9,6 +9,11 @@ It can handle:
 - Images (via URL)
 
 ---
+##requitements##
+python 3.8 or newer, groq, beautifulsoup4, lxml, python-dotenv
+```
+$ pip3 install -r requirements.txt
+```
 
 ## Usage
 
