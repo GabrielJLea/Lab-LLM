@@ -42,7 +42,7 @@ python3 docusm.py <pdf file name>
 **Example:**
 ```bash
 python3 docusm.py research_paper.pdf
-The research paper "DOCSPLIT: Simple Contrastive Pretraining for Large Document Embeddings" proposes a novel unsupervised pretraining method called DOCSPLIT, designed to improve the representation of large documents. DOCSPLIT uses contrastive learning to force models to consider the entire global context of a document, outperforming existing methods on various downstream tasks. The authors demonstrate significant improvements on document classification, few-shot learning, and document retrieval tasks using DOCSPLIT-pretrained models.
+The research paper proposes a novel unsupervised pretraining method called DOCSPLIT, designed to improve the representation of large documents. DOCSPLIT uses contrastive learning to force models to consider the entire global context of a document, outperforming existing methods on various downstream tasks. The authors demonstrate significant improvements on document classification, few-shot learning, and document retrieval tasks using DOCSPLIT-pretrained models.
 ```
 
 ---
